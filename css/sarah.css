@@ -1,0 +1,38 @@
+ul li{
+   margin-left: 25px;
+   list-style-type: upper-roman;
+}
+
+img {
+    width: 24%;
+    padding: 15px;
+    margin: 0px;
+    border-style: dashed;
+}
+
+p {
+    color: darkcyan;
+    text-align: left;
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: stretch;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 85%;
+    border: 2px dashed purple;
+}
+
+#item1 {
+    grid-column: 1 / -1
+}

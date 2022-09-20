@@ -1,13 +1,44 @@
 body{
     font-family: Courier, "Times New Roman", Impact;
     line-height: 2;
-    color: darkblue;
-    background-color: lightgrey;
+    color: palegoldenrod;
+    background-color: plum;
     font-size: 38px;
 }
-img {
-    border: 5px solid green;
+
+img{
+    border: 5px solid powderblue;
 }
+
+
 li {
-    border: solid 25px black;
+    background-color: palevioletred;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    padding: 15px;
+    margin: 20px
 }
+
+nav li {
+    background-color: lightskyblue;
+    border: 2px solid white;
+    border-radius: 100px;
+    display: block;
+    width: 40;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    padding: 30px;
+    margin: 10px;
+}
+
+img {
+    width: 24%;
+    padding: 15px;
+    margin: 0px;
+    border-style: dashed;
+}
+
