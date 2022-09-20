@@ -1,0 +1,42 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+p{
+    color: darkcyan;
+    text-shadow: 2px;
+    text-align: left;
+    font-size: 40px;
+}
+
+img {
+    width: 24%;
+    padding:15px;
+    margin: 0px;
+    border-style:dashed;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    align-items: stretch;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gallery img{
+    width: 85%;
+    border: 10px dotted rgb(255, 188, 255);
+}
+#last {
+    grid-column: 1/-1;
+}
